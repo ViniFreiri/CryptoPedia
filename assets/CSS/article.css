@@ -1,0 +1,40 @@
+.articles__container {
+    background: #C0D4E9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+
+.info__article {
+    margin-top: 5%;
+   
+}
+
+.article__title {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+.article__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 2.8rem;
+    margin-left: 2%;
+    
+}
+
+.bitcoin__site, .canaltech__site, .blockmaster__site, .copeltelecom__site {
+    color: #33ad3f;
+    text-decoration: none;
+    
+
+}
+

@@ -1,0 +1,42 @@
+nav {
+    background-color: rgba(255, 120, 44, 0.99);
+    width: 100vw;
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    transform: translate(0, 50%);
+    margin-left: 3%;
+}
+
+.brand__logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.brand__title {
+    color: #DBE3EB;
+    font-family: 'Lobster', cursive;
+    font-size: 64px;
+}
+
+.nav__list {
+    display: inline-flex;
+    font-size: 34px;
+    transform: translate(0, 120%);
+    margin-left: 5%;
+}
+
+.nav__link {
+    color: rgba(251, 249, 249, 0.81);
+    text-decoration-line: underline;
+    margin-left: 5rem;
+}
+
+.nav__link:hover {
+    color: #5a9cdd;
+}
